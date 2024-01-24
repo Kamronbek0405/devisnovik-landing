@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .footer__container{
+        width: 500px;
+        height: 340px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .footer__title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            width: auto;
+            height: 180px;
+
+            .footer__text{
+                width: 145.604px;
+                height: 43.063px;
+                color:#070707;
+                text-align: center;
+                font-size: 34px;
+                font-weight: 400;
+            }
+            .footer__lorem{
+                width: 275px;
+                height: 44px;
+                color:#070707;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 400;
+    
+            }
+            .footer__button{
+                width: 180.5px;
+                height: 42px;
+                border-radius: 50px;
+                background-color: black;
+    
+                .footer__link{
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 400;
+                    
+                }
+        }
+        }
+        .footer__item{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            width: auto;
+            height: 108px;
+
+            .footer__list{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 300px;
+                height: 50px;
+            }
+            .footer__span{
+                width: 243px;
+                height: 34px;
+                color: #828282;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 400;
+
+            }
+
+        }
+        
+    }
+}
